@@ -1,6 +1,6 @@
 === Wc Latest Products Grid Block ===
 Contributors:      yagniksangani
-Tags:              block, latest products, woocommerce, recent products
+Tags:              woocommerce, latest products, recent products, new products
 Tested up to:      6.5.2
 Stable tag:        1.0.0
 Requires PHP:      7.4
@@ -15,11 +15,11 @@ Integrate seamlessly with our custom Gutenberg block to effortlessly showcase yo
 
 == Key Features ==
 
-- Effortless Integration: Simply add the block to your Gutenberg editor, select your display preferences, and instantly showcase your latest products without any hassle.
-- Dynamic Updates: Our block automatically pulls in the most recent products from your WooCommerce store, ensuring that your customers are always presented with the freshest inventory.
-- Customizable Display Options: Tailor the appearance of your product grid to match your website's aesthetic. Choose the number of columns, adjust image sizes, and customize other settings to create a layout that best suits your needs.
-- Responsive Design: Whether your visitors are browsing on a desktop, tablet, or smartphone, our block ensures a seamless viewing experience across all devices, maximizing engagement and usability.
-- Enhanced User Experience: By prominently featuring your latest products, you provide valuable information to your customers and encourage exploration of your offerings, ultimately driving sales and conversions.
+- **Effortless Integration:** Simply add the block to your Gutenberg editor, select your display preferences, and instantly showcase your latest products without any hassle.
+- **Dynamic Updates:** Our block automatically pulls in the most recent products from your WooCommerce store, ensuring that your customers are always presented with the freshest inventory.
+- **Customizable Display Options:** Tailor the appearance of your product grid to match your website's aesthetic. Choose the number of columns, adjust image sizes, and customize other settings to create a layout that best suits your needs.
+- **Responsive Design:** Whether your visitors are browsing on a desktop, tablet, or smartphone, our block ensures a seamless viewing experience across all devices, maximizing engagement and usability.
+- **Enhanced User Experience:** By prominently featuring your latest products, you provide valuable information to your customers and encourage exploration of your offerings, ultimately driving sales and conversions.
 
 == Installation ==
 
@@ -33,7 +33,7 @@ e.g.
 == Screenshots ==
 
 1. Backend block section screenshot (screenshot-1.png).
-2. Frontedn block section screenshot (screenshot-2.png).
+2. Frontend block section screenshot (screenshot-2.png).
 
 == Changelog ==
 

@@ -13,7 +13,7 @@
  * Text Domain:       wclpg-block
  * Domain Path:       /languages
  *
- * @package           create-block
+ * @package           WCLPG_BLOCK
  */
 
 /**
