@@ -1,8 +1,8 @@
 {
 	"name": "wc-latest-products-grid-block",
-	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"version": "1.0.0",
+	"description": "Display the latest woocommerce products with this custom gutenberg block.",
+	"author": "Yagnik Sangani",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
