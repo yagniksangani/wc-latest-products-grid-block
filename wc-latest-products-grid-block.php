@@ -16,6 +16,10 @@
  * @package           WCLPG_BLOCK
  */
 
+defined( 'ABSPATH' ) || exit;
+
+require_once ABSPATH . 'wp-admin/includes/plugin.php';
+
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
  * Behind the scenes, it registers also all assets so they can be enqueued
@@ -124,7 +128,7 @@ function wc_latest_products_list_render_callback( $attributes ) {
 
 	$style_grid_gap = '';
 	if ( $attributes['gridGap'] ) {
-		$style_grid_gap = 'style=margin-right:' . $attributes['gridGap'] . 'px;';
+		$style_grid_gap = 'style=padding:' . $attributes['gridGap'] . 'px;';
 	}
 
 	$producttitlecolor = '';
@@ -161,8 +165,6 @@ function wc_latest_products_list_render_callback( $attributes ) {
 
 				$product_name    = $product->get_name();
 				$product_link    = get_permalink( $product_id );
-				$price           = $product->get_price();
-				$regular_price   = $product->get_regular_price();
 				$sale_price      = $product->get_sale_price();
 				$stock_status    = $product->get_stock_status();
 				$product_image   = get_the_post_thumbnail_url( $product_id );
@@ -171,20 +173,10 @@ function wc_latest_products_list_render_callback( $attributes ) {
 				if ( empty( $product_image ) ) {
 					$product_image = wc_placeholder_img_src();
 				}
-
-				$li_class = '';
-				if ( ( $key + 1 ) === $count_products ) {
-					$li_class       = 'last';
-					$style_grid_gap = '';
-				} elseif ( 0 === $key ) {
-					$li_class = 'first';
-				}
 				?>
-				<li class="product type-product status-publish <?php echo esc_attr( $li_class ); ?>" <?php echo esc_attr( $style_grid_gap ); ?>>
+				<li class="product type-product status-publish" <?php echo esc_attr( $style_grid_gap ); ?>>
 
-					<a href="<?php echo esc_url( $product_link ); ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-						<img width="324" height="324" src="<?php echo esc_url( $product_image ); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">
-					</a>
+					<img width="324" height="324" src="<?php echo esc_url( $product_image ); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">
 
 					<?php if ( $attributes['displayProductTitle'] ) { ?>
 						<h2 class="woocommerce-loop-product__title" <?php echo esc_attr( $producttitlecolor ); ?>><?php echo esc_html( $product_name ); ?></h2>

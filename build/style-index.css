@@ -1,1 +1,15 @@
-.wp-block-create-block-wc-latest-products-grid-block{background-color:#fff;color:#000}
+.wp-block-create-block-wc-latest-products-grid-block {
+    background-color: #fff;
+    color: #000
+}
+
+ul.wc_latest_products_grid_section.products li.product {
+    list-style: none;
+}
+
+ul.wc_latest_products_grid_section.products {
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
