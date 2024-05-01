@@ -1,4 +1,4 @@
-# WooCommerce Latest Products Grid Block
+# Latest Products Grid Block for WooCommerce
 
 Display the latest woocommerce products with this custom gutenberg block.
 

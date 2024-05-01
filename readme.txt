@@ -1,4 +1,4 @@
-=== Wc Latest Products Grid Block ===
+=== Latest Products Grid Block for WooCommerce ===
 Contributors:      yagniksangani
 Donate link:       paypal.me/yagniksangani
 Tags:              woocommerce, products, recent, latest, new

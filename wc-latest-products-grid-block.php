@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       WooCommerce Latest Products Grid Block
+ * Plugin Name:       Latest Products Grid Block for WooCommerce
  * Description:       Display the latest woocommerce products with this custom gutenberg block.
  * Requires at least: 6.1
  * Requires PHP:      7.4
