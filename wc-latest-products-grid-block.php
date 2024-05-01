@@ -3,12 +3,15 @@
  * Plugin Name:       WooCommerce Latest Products Grid Block
  * Description:       Display the latest woocommerce products with this custom gutenberg block.
  * Requires at least: 6.1
- * Requires PHP:      7.0
- * Version:           0.1.0
+ * Requires PHP:      7.4
+ * Version:           1.0.0
+ * Tested up to:      6.5.2
  * Author:            Yagnik Sangani
- * License:           GPL-2.0-or-later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Author URI:        https://profiles.wordpress.org/yagniksangani/
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wclpg-block
+ * Domain Path:       /languages
  *
  * @package           create-block
  */

@@ -8,9 +8,11 @@ Integrate seamlessly with our custom Gutenberg block to effortlessly showcase yo
 
 ## Key Features
 
-- Real-time Updates: Automatically showcases the most recently added products from the WooCommerce store, ensuring customers always see the freshest offerings.
-- Quick View: Enables users to view product details, add items to cart, or proceed to checkout directly from the grid block, minimizing the number of steps required for purchase.
-- Customizable Styling: Provides options for customizing the styling of the grid block to match the store's branding and design aesthetic, including fonts, colors, and spacing.
+- Effortless Integration: Simply add the block to your Gutenberg editor, select your display preferences, and instantly showcase your latest products without any hassle.
+- Dynamic Updates: Our block automatically pulls in the most recent products from your WooCommerce store, ensuring that your customers are always presented with the freshest inventory.
+- Customizable Display Options: Tailor the appearance of your product grid to match your website's aesthetic. Choose the number of columns, adjust image sizes, and customize other settings to create a layout that best suits your needs.
+- Responsive Design: Whether your visitors are browsing on a desktop, tablet, or smartphone, our block ensures a seamless viewing experience across all devices, maximizing engagement and usability.
+- Enhanced User Experience: By prominently featuring your latest products, you provide valuable information to your customers and encourage exploration of your offerings, ultimately driving sales and conversions.
 
 ## Installation
 
